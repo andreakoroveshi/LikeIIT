@@ -1,0 +1,254 @@
+body {
+font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-weight: bold;
+}
+
+/* NAVIGATION BAR ----------------------------------- */
+.navbar {
+  padding: 60px 10% 200px;
+  font-family: "Ubuntu";
+}
+
+.nav-item {
+  padding-left: 25px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+}
+
+/* TITLE ----------------------------------- */
+#title {
+  position: relative;
+  background-color: #344D67;
+}
+
+.title-h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+}
+
+.row-title {
+  padding: 0 10% 10% 10%;
+}
+
+.titleIMG-artstation {
+  position: absolute;
+  transform: rotate(9deg);
+  right: 0;
+}
+
+.downbtn {
+  margin: 20px 5px;
+}
+
+/* FEATURES ----------------------------------- */
+#features {
+  position: relative;
+  z-index: 1;
+  padding: 100px 50px;
+  background-color: white;
+}
+
+.featureDiv {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.featuredIcons {
+  display: block;
+  width: auto;
+  height: 100px;
+  color: #256D85;
+}
+
+.featuredIcons:hover {
+  color: #47B5FF;
+}
+
+.paraFeatures {
+  color: #8f8f8f;
+}
+
+/* TESTIMONIALS ----------------------------------- */
+#testimonials {
+  text-align: center;
+  background-color: #282A3A;
+}
+
+.testimonialHeader {
+  color: white;
+  font-weight: 900;
+  font-size: 2.5rem;
+}
+
+.testimonialImg {
+  border-radius: 100%;
+  margin: 25px;
+  width: 90px;
+}
+
+.testimonialAuthor {
+  color: white;
+}
+
+/* carousel ----------------------------------- */
+.carousel-inner>.carousel-item>a>img, .carousel-inner>.carousel-item>img, .img-fluid {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  /* solution found on StackOverflow. couldn't center image in carousel. right margin filled the screen */
+}
+
+.carousel-item {
+  padding: 10% 10% 2%;
+}
+
+.carousel-control-prev {
+  width: 100px;
+}
+
+.carousel-control-next {
+  width: 100px;
+}
+
+/* PRESS ----------------------------------- */
+#press {
+  text-align: center;
+  background-color: #282A3A;
+}
+
+.pressImg {
+  width: 5%;
+  margin: 0 3% 3%;
+}
+
+/* PRICING ----------------------------------- */
+#pricing {
+  padding: 50px;
+  text-align: center;
+}
+
+.row-price {
+  text-align: center;
+  justify-content: center;
+}
+
+.card-deck {
+  padding: 20px;
+  border-spacing: 0rem;
+}
+
+.card {
+  margin: 20px;
+}
+
+.cardPad {
+  padding-top: 0.9375rem;
+  padding-bottom: .9375rem;
+  width: 50rem;
+}
+
+.price-img {
+  height: 46px;
+  width: 100px;
+  margin: 20px auto;
+}
+
+.price-price {
+  margin: 20px auto;
+}
+
+.price-signup {
+  margin: 20px auto 0;
+}
+
+/* MEDIA QUERY ----------------------------------- */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .titleIMG-artstation {
+    position: static;
+    transform: rotate(0);
+    height: 200px;
+    margin: 50px auto;
+  }
+}
+
+/* CTA ----------------------------------- */
+#cta {
+  text-align: center;
+  background-color: #282A3A;
+  padding: 150px 150px 130px;
+}
+
+.cta-h3 {
+  color: white;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.cta-btn {
+  margin: auto 10px;
+}
+
+/* FOOTER ----------------------------------- */
+#footer {
+  text-align: center;
+  padding: 130px 150px 130px;
+}
+
+.cta-socials {
+  margin: 9px 9px;
+}
+
+.cta-parag {
+  margin: 0;
+  padding: 20px;
+}
+
+/* MEDIA QUERY ----------------------------------- */
+@media (max-width: 1078px) {
+  .testimonialHeader {
+    font-size: 1.4rem;
+  }
+
+  .carousel-item {
+    padding: 10% 5% 3%;
+  }
+
+  .testimonialImg {
+    display: inline-block;
+    margin: 10px;
+    width: 45px;
+  }
+
+  #cta {
+    padding: 50px 20px;
+  }
+
+  .cta-btn {
+    margin: 10px 10px;
+  }
+
+  .cta-h3 {font-size: 1.5rem; margin-bottom: 1%;}
+
+  .card-deck {
+    justify-content: center;
+  }
+
+  .cardPad {
+    padding-top: 0.9375rem;
+    padding-bottom: .9375rem;
+    width: 25rem;
+  }
+
+  .pressImg {width: 10%;}
+}
